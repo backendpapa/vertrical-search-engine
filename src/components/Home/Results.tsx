@@ -5,7 +5,15 @@ import "./css/Results.css"
 function Results() {
   return (
     <div className="container" >
-        <p>djdj</p>
+        <div className="container-item">
+            kfk
+        </div>
+        <div className="container-item">
+            kfk
+        </div>
+        <div className="container-item">
+            kfk
+        </div>
     </div>
   );
 }

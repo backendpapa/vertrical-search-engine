@@ -2,3 +2,30 @@
     display: flex;
     margin-top: 4% !important;
 }
+.container-item{
+    flex: 4;
+    height: 30vh;
+    background-color: white;
+    padding: 10px !important;
+    margin: 2% !important;
+    width: 25vw !important;
+    border-radius: 14px;
+}
+
+@media all and (max-width: 500px){
+    .container{
+        display: flex;
+        margin-top: 4% !important;
+        flex-direction: column;
+    }
+    .container-item{
+        flex: 1;
+        min-height: 25vh !important;
+        background-color: white;
+        padding: 10px !important;
+        margin: 2% !important;
+        width: 80vw !important;
+        border-radius: 14px;
+    } 
+
+}
