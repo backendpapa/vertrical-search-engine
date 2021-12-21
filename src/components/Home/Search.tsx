@@ -3,7 +3,10 @@ import "./css/Search.css"
 function Search() {
   return (
     <div >
-     <input className="input-container" type="search" name="" id="" ></input>
+    <div className="search-container">
+    <input className="input-container" type="search" name="" id="" ></input>
+     <button className="submit-button" type="submit"></button>
+    </div>
     </div>
   );
 }
