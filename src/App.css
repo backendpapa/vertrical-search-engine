@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.App{
+  background: linear-gradient(1deg,#28314A,#42507B);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
