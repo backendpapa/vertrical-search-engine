@@ -24,6 +24,12 @@
     position: absolute;
     right: 0%;
 }
+.no-result{
+    margin-top: 10% !important;
+    font-size: 40px;
+    color: rgb(184, 181, 181);
+    font-weight: bolder;
+}
 
 
 
@@ -42,5 +48,12 @@
     .search-container{
         width:80vw;
         position: relative;
+    }
+    .no-result{
+        text-align: center;
+        margin-top: 10% !important;
+        font-size: 30px;
+        color: rgb(184, 181, 181);
+        font-weight: bolder;
     }
 }

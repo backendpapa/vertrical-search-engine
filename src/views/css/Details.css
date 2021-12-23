@@ -1,0 +1,35 @@
+.image-container{
+    height:40vh;
+}
+.content-container{
+    margin: 5% !important;
+}
+.title-detail{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.content-detail{
+    font-size: 20px;
+    color: wheat;
+}
+.submit-button-2{
+    margin: 3% !important;
+    border-radius: 50%;
+    height: 5vh;
+    background: linear-gradient(1deg,#2001d1,#083f06);
+    border: 1px solid white;
+    width: 5vh;
+}
+
+@media all and (max-width: 500px){
+    .title-detail{
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+    }
+    .content-detail{
+        font-size: 15px;
+        color: wheat;
+    }
+}
